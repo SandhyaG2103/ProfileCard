@@ -5,6 +5,7 @@
     height: 400px;
     perspective: 1000px;
     margin: auto;
+    
     cursor: pointer;
     transition: transform 0.6s;
   }
@@ -44,7 +45,7 @@
   
   .bio-card-back {
     background: linear-gradient(135deg, #ff6f61, #ffcc33); /* Gradient background */
-    color: white;
+    color: rgb(2, 2, 29);
     transform: rotateY(180deg);
     padding: 20px;
     display: flex;
@@ -67,7 +68,7 @@
   
   .bio-card h2 {
     margin: 10px 0;
-    color: #333;
+    color: rgb(1, 1, 30);
   }
   
   .bio-card h4 {
@@ -80,7 +81,7 @@
   }
   
   .bio-card a {
-    color: #ffe600;
+    color: red;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
@@ -92,4 +93,5 @@
   body{
 font-style: oblique;
 font-weight: 300;
+
   }
